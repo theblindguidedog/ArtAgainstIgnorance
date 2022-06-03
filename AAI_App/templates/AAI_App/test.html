@@ -1,0 +1,147 @@
+{% extends "AAI_App/base_test.html" %}
+
+{% load static %}
+
+{% block content %}
+<div class="section-padding before"></div>
+<br/>
+<div class="gallery-section featured-video">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="video-gallery bg-transparent" style="padding-top:50px;">
+                    <div class="section-title white-color">
+                        <h1>Featured</h1>
+                        <h2>Video Hive</h2>
+                    </div>                           
+                    <div class="gallery-tab">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="one">
+                                <div class="video-content">
+                                    <div class="video-overlay"></div>
+                                    <img class="img-responsive" src="{% static 'AAI_App/images/player/video-bg.jpg' %}" alt="Image">
+                                    <div class="video video-icons text-center">
+                                        <a class="video-link" href="https://vimeo.com/52510120"><img class="img-responsive" src="{% static 'AAI_App/images/player/1.png' %}" alt="Image"></a>
+                                    </div>                                
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="two">
+                                <div class="video-content">
+                                    <div class="video-overlay"></div>
+                                    <img  class="img-responsive" src="{% static 'AAI_App/images/player/video-bg2.jpg' %}" alt="Image">
+                                    <div class="video video-icons text-center">
+                                        <a class="video-link" href="https://www.youtube.com/watch?v=QQ2c2EuRaA8"><img class="img-responsive" src="{% static 'AAI_App/images/player/1.png' %}" alt="Image"></a>
+                                    </div>                                
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="three">
+                                <div class="video-content">
+                                    <div class="video-overlay"></div>
+                                    <img class="img-responsive" src="{% static 'AAI_App/images/player/video-bg3.jpg' %}" alt="Image">
+                                    <div class="video video-icons text-center">
+                                        <a class="video-link" href="https://vimeo.com/34368659"><img class="img-responsive" src="{% static 'AAI_App/images/player/1.png' %}" alt="Image"></a>
+                                    </div>                                
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="four">
+                                <div class="video-content">
+                                    <div class="video-overlay"></div>
+                                    <img  class="img-responsive" src="{% static 'AAI_App/images/player/video-bg4.jpg' %}" alt="Image">
+                                    <div class="video video-icons text-center">
+                                        <a class="video-link" href="https://www.youtube.com/watch?v=1QUCrawl8KY"><img class="img-responsive" src="{% static 'AAI_App/images/player/1.png' %}" alt="Image"></a>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#one" aria-controls="one" role="tab" data-toggle="tab">
+                                <div class="tab-image">
+                                    <div class="gallery-image">
+                                        <img  class="img-responsive" src="{% static 'AAI_App/images/gallery/1.jpg' %}" alt="Image">
+                                        <div class="image-overlay">
+                                            <img class="img-responsive" src="{% static 'AAI_App/images/player/2.png' %}" alt="Image">
+                                        </div>     
+                                    </div>    
+                                    <h5>Playbit Festival <span>2015</span></h5>
+                                </div>
+                            </a></li>
+                            <li role="presentation"><a href="#two" aria-controls="two" role="tab" data-toggle="tab">
+                                <div class="tab-image">
+                                    <div class="gallery-image">
+                                        <img  class="img-responsive" src="{% static 'AAI_App/images/gallery/2.jpg' %}" alt="Image">
+                                        <div class="image-overlay">
+                                            <img class="img-responsive" src="{% static 'AAI_App/images/player/2.png' %}" alt="Image">
+                                        </div>     
+                                    </div>
+                                    <h5>Playbit Festival <span>2014</span></h5>
+                                </div>
+                            </a></li>
+                            <li role="presentation"><a href="#three" aria-controls="three" role="tab" data-toggle="tab">
+                                <div class="tab-image">
+                                    <div class="gallery-image">
+                                        <img  class="img-responsive" src="{% static 'AAI_App/images/gallery/3.jpg' %}" alt="Image">
+                                        <div class="image-overlay">
+                                            <img class="img-responsive" src="{% static 'AAI_App/images/player/2.png' %}" alt="Image">
+                                        </div>     
+                                    </div>
+                                    <h5>Playbit Festival <span>2013</span></h5>
+                                </div>
+                            </a></li>
+                            <li role="presentation"><a href="#four" aria-controls="four" role="tab" data-toggle="tab">
+                                <div class="tab-image">
+                                    <div class="gallery-image">
+                                        <img  class="img-responsive" src="{% static 'AAI_App/images/gallery/4.jpg' %}" alt="Image">
+                                        <div class="image-overlay">
+                                            <img class="img-responsive" src="{% static 'AAI_App/images/player/2.png' %}" alt="Image">
+                                        </div>     
+                                    </div>
+                                    <h5>Playbit Festival <span>2012</span></h5>
+                                </div>
+                            </a></li>
+                        </ul>    
+                    </div> <!-- gallery tab --> 
+                </div>
+            </div>
+            <div class="col-sm-5">                       
+                <div class="right-content bg-transparent">
+                    <div class="section-title white-color" style="padding-top:50px;">
+                        <h1>Listening</h1>
+                        <h2>Audio Player</h2>
+                    </div>                            
+                    <div id="jplayer-container">
+                        <div id="jplayer" class="jplayer"></div>
+                        <div id="jp-container" class="audio-content">
+                            <div class="control-content">
+                                <div id="playing"></div>
+                                <ul class="jp-controls">
+                                    <li><a href="javascript:;" class="jp-play" tabindex="1"><img  class="img-responsive" src="{% static 'AAI_App/images/player/3.png' %}" alt="Image"></a></li>
+                                    <li><a href="javascript:;" class="jp-pause" tabindex="1"><img  class="img-responsive" src="{% static 'AAI_App/images/player/5.png' %}" alt="Image"></a></li>
+                                </ul> 
+                                <div class="jp-interface">
+                                    <div class="jp-progress">
+                                        <div class="jp-seek-bar">
+                                            <div class="jp-play-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="jp-current-time"></div>
+                                </div>
+                            </div>
+                            <div class="jp-playlist">
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="jp-no-solution">
+                                <span>Update Required</span>
+                                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+</div><!-- gallery section --> 
+
+{% endblock content %}
