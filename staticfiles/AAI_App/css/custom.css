@@ -240,15 +240,15 @@
     }
 
 
-    /* DON'T KNOW WHAT THESE ARE
+    /* DON'T KNOW WHAT THESE ARE*/
     .no-web .body-base {
-        background-image: url(../aai_images/bg/2.jpg);
+        background-image: url(../aai_images/bg/grey-background.jpg);
         z-index: 1;    
     }
 
     .webp .body-base {
-        background-image: url(../aai_images/bg/webp/2.webp);
+        background-image: url(../aai_images/bg/webp/grey-background.webp);
         z-index:1;    
     }
-    */
+    
 

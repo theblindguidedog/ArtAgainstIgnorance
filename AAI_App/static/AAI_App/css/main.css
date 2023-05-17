@@ -470,17 +470,17 @@ ul.sub-menu {
 /* About Section */
 
 .no-webp .about-section.about {
-    background-image: url(../aai_images/bg/2.jpg);
+    background-image: url(../aai_images/bg/grey-background.jpg);
     background-color: #e7eced;
 }
 
 .webp .about-section.about {
-    background-image: url(../aai_images/bg/webp/2.webp);
+    background-image: url(../aai_images/bg/webp/grey-background.webp);
 }
 
 .no-webp .about-section.about.before-after:before, 
 .no-webp .about-section.about.before-after:after {
-	background-image: url(../aai_images/bg/2.jpg);	
+	background-image: url(../aai_images/bg/grey-background.jpg);	
 	height: 30px;
 	border: 0;
 	top: -29px;
@@ -488,7 +488,7 @@ ul.sub-menu {
 
 .webp .about-section.about.before-after:before, 
 .webp .about-section.about.before-after:after {
-    background-image: url(../aai_images/bg/webp/2.webp)
+    background-image: url(../aai_images/bg/webp/grey-background.webp)
 }
 
 .about-section.about.before-after:before {	
