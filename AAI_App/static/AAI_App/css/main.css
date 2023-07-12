@@ -53,7 +53,7 @@ ul {
 }
 
 a:hover {
-	color: #ed145b;
+	color: rgba(221, 103, 6, 0.607);
 }
 
 a, a:hover, a:active,
@@ -69,8 +69,8 @@ a:focus, button:focus, .btn:focus,
     font-family: 'allerbold';
     font-size: 14px;
     text-align: center;
-    border-color: #ed145b;
-    background-color: #ed145b;
+    border-color: rgb(55, 36, 1);
+    background-color: rgba(122, 56, 2, 0.973);
 	padding-top: 10px;
     padding-bottom: 15px;
     padding-left:35px;
@@ -79,8 +79,8 @@ a:focus, button:focus, .btn:focus,
 }
 
 .btn.btn-primary:hover {
-    background-color: transparent;
-    color: #ed145b;
+    background-color: transparent;/*was transparent*/
+    color: rgba(45, 221, 6, 0.972);
 }
 
 .btn.btn-default i,
@@ -98,7 +98,7 @@ a:focus, button:focus, .btn:focus,
 
 .btn.btn-primary:hover i {
 	right:20px;
-	color: #ed145b;
+	color: rgba(221, 103, 6, 0.607);
 }
 
 .btn.btn-default {
@@ -113,11 +113,11 @@ a:focus, button:focus, .btn:focus,
 }
 
 .btn.btn-default:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .btn.btn-default i {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .btn.btn-default:hover i {
@@ -143,16 +143,16 @@ a:focus, button:focus, .btn:focus,
 
 .section-title h1,
 .page-title h1 {
-    font-size: 12px;
+    font-size: 40px;
     letter-spacing: 14px;
-    color: #ed145b;
+    color: #faf6f4;
     font-family: 'allerbold';
 }
 
 .section-title h2,
 .page-title h2 {
     font-size: 40px; /* was 48px though it seems to make no difference */
-    color: #000;
+    color: #4f2303;
     font-family: 'aller_displayregular';
 }
 
@@ -241,7 +241,7 @@ a:focus, button:focus, .btn:focus,
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.4);;
+    background-color: rgba(221, 103, 6, 0.453);
     z-index: -1;
 }
 
@@ -262,12 +262,12 @@ a:focus, button:focus, .btn:focus,
 }
 
 .navbar-toggle {
-    border: 1px solid #ed145b;
+    border: 1px solid rgba(221, 103, 6, 0.607);
     margin-top: 12px;
 }
 
 .navbar-toggle .icon-bar {
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 /* ==========================================================================
@@ -333,14 +333,14 @@ a:focus, button:focus, .btn:focus,
 #navigation .navbar-nav>.active>a, 
 #navigation .navbar-nav>.active>a:focus, 
 #navigation .navbar-nav>.active>a:hover {
-    color: #ed145b;  
+    color: rgba(122, 56, 2, 0.973);  
 }
 
 #navigation .navbar-nav li ul.sub-menu li a:hover, 
 #navigation .navbar-nav li ul.sub-menu li a:focus, 
 #navigation .navbar-nav li ul.sub-menu li a:active, 
 #navigation .navbar-nav li ul.sub-menu li.active>a {
-	color: #ed145b; 
+	color: rgba(122, 56, 2, 0.973); 
 }
 
 #navigation .btn.btn-primary {
@@ -364,7 +364,7 @@ ul.sub-menu {
   padding:7px 0;
   margin: 0;
   min-width: 180px;
-  border-top:1px solid #ed145b;
+  border-top:1px solid rgba(221, 103, 6, 0.607);
   box-shadow: 0 3px 3px rgba(0,0,0,.1);
   -webkit-box-shadow: 0 3px 3px rgba(0,0,0,.1);  
   display: none;
@@ -563,7 +563,7 @@ ul.sub-menu {
 }
 
 .about-info ul li i {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     margin-right: 10px;
     font-size: 14px;
 }
@@ -621,7 +621,7 @@ ul.sub-menu {
 }
 
 .audio-list .controls:hover {
-   background-color: #ed145b; 
+   background-color: rgba(221, 103, 6, 0.607); 
 }
 
 .audio-list .controls i {
@@ -645,6 +645,8 @@ ul.sub-menu {
     margin-top: 20px;
     margin-bottom: 20px;
     overflow: hidden;
+    border: solid rgba(122, 56, 2, 0.973) 3px; /*was rgb(77, 32, 1)*/
+    border-radius: 15px;
 }
 
 .artists img,
@@ -662,7 +664,7 @@ ul.sub-menu {
     right: 0;
     width: 100%;
     height:100%;
-    background-color: rgba(237, 20, 91, 0.7);
+    background-color: rgba(147, 73, 4, 0.428);
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
@@ -740,7 +742,7 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.7);
+    background-color: rgba(221, 103, 6, 0.607);
     opacity: 0;
      -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -777,7 +779,7 @@ ul.sub-menu {
 }
 
 .video-content .video a:hover{
-	color:#ed145b;
+	color:rgba(221, 103, 6, 0.607);
 }
 
 .gallery-section .section-title {
@@ -840,7 +842,7 @@ ul.sub-menu {
 .nav-tabs>li.active .image-overlay,
 .gallery-image:hover .image-overlay,
 .nav-tabs>li.active>a:focus .image-overlay {
-    background-color: rgba(237, 20, 91, 0.7);
+    background-color: rgba(221, 103, 6, 0.407);
     opacity: 1;
 	-webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -868,10 +870,12 @@ ul.sub-menu {
 }
 
 .festival-info {
-    background-color: #f7f7f7;
+    background-color: #f7f7f78e;
     display: block;
     overflow: hidden;
     margin-bottom: 30px;
+    border: solid rgb(77, 32, 1) 2px;
+    border-radius: 15px;
 }
 
 .festival-info:last-child {
@@ -893,7 +897,7 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.7);
+    background-color: rgba(221, 103, 6, 0.607);
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -ms-transform: scale(0);
@@ -934,7 +938,7 @@ ul.sub-menu {
 }
 
 .festival-info:hover h2 {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .festival-info h5 {
@@ -985,7 +989,7 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.6);
+    background-color: rgba(221, 103, 6, 0.607);
     -webkit-transition: all 500ms;
     -moz-transition: all 500ms;
     -ms-transition: all 500ms;
@@ -1074,7 +1078,7 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.7);
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 .gallery-item:hover .gallery-overlay {
@@ -1151,7 +1155,7 @@ ul.sub-menu {
     margin-left: -60px;
     margin-top: -90px;
     color: #fff;
-    background-color: rgba(237, 20, 91, 0.8);
+    background-color: rgba(221, 103, 6, 0.607);
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -1213,7 +1217,7 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.7);
+    background-color: rgba(168, 80, 3, 0.61);
     z-index: -1;
 }
 
@@ -1256,12 +1260,12 @@ ul.sub-menu {
 }
 
 .products:hover a {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .shop-section .products i,
 .products:hover i {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .products i {
@@ -1322,7 +1326,7 @@ ul.sub-menu {
 }
 
 .products-slider .owl-nav i:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .products-details h1 {
@@ -1495,12 +1499,12 @@ ul.sub-menu {
 .add-buttons .button {
     text-transform: uppercase;
     font-family: 'allerbold';    
-    border: 1px solid #ed145b;
+    border: 1px solid rgba(221, 103, 6, 0.607);
     padding: 0 30px;
     padding-top: 10px;
     padding-bottom: 13px;  
     padding-left: 55px;
-    background-color: #ed145b;  
+    background-color: rgba(221, 103, 6, 0.607);  
     color: #fff;
     border-radius: 4px;
     position: relative;
@@ -1528,7 +1532,7 @@ ul.sub-menu {
 
 .cart-button:hover {
     background-color: transparent;  
-    color:#ed145b;   
+    color:rgba(221, 103, 6, 0.607);   
 }
 
 .products-details .share {
@@ -1550,7 +1554,7 @@ ul.sub-menu {
 
 .related-products h1 {
     font-size: 28px;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     text-transform: uppercase;
     font-family: 'aller_displayregular';
     margin-bottom: 45px;
@@ -1561,7 +1565,7 @@ ul.sub-menu {
 }
 
 .related-products .products:hover i {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 /* Products Description */
@@ -1617,7 +1621,7 @@ ul.sub-menu {
 .products-description .nav-tabs>li>a:hover {
     border: 0;
     background-color: transparent;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .product-menu {
@@ -1825,7 +1829,7 @@ ul.sub-menu {
     width: 65px;
     height: 65px;
     text-align: center;
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 .post-content .time a {
@@ -1858,7 +1862,7 @@ ul.sub-menu {
 }
 
 .entry-title a:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .post-icons {
@@ -1869,11 +1873,11 @@ ul.sub-menu {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background-color: rgba(237, 20, 91, 0.5);
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 .post-icons:hover {
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 .post-icons a {
@@ -1982,7 +1986,7 @@ ul.sub-menu {
 
 .media-inner .reply {
     font-size: 14px;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .post-comment {
@@ -2056,7 +2060,7 @@ ul.sub-menu {
 }
 
 .form-control:focus {
-    border: 1px solid #ed145b;
+    border: 1px solid rgba(221, 103, 6, 0.607);
 }
 
 textarea.form-control {
@@ -2129,7 +2133,7 @@ textarea.form-control {
 }
 
 .contact-info li a:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .feedback.before-after:before, 
@@ -2172,12 +2176,12 @@ textarea.form-control {
 
 .promotion .btn.btn-primary {
     background-color: #fff;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     border-color: #fff;
 }
 
 .promotion .btn.btn-primary i {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .promotion .btn.btn-primary:hover {
@@ -2230,7 +2234,7 @@ textarea.form-control {
 }
 
 .twitter-feed a:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .feed-content.white-color a:hover {
@@ -2270,7 +2274,7 @@ textarea.form-control {
     width: 65px;
     height: 65px;
     text-align: center;
-    background-color: #ed145b;    
+    background-color: rgba(221, 103, 6, 0.607);    
 }
 
 .contact-info .time h2 {
@@ -2301,7 +2305,7 @@ textarea.form-control {
 }
 
 .contact-info i {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     margin-right: 10px;
     font-size: 14px;    
 }
@@ -2318,7 +2322,7 @@ textarea.form-control {
 
 .schedule-section .section-title {
     margin-bottom: 45px;
-    color: #ed145e;
+    color: rgba(221, 103, 6, 0.607);
     padding-top: 40px;
 }
 
@@ -2373,7 +2377,7 @@ textarea.form-control {
 
 .schedule-menu a {
     font-size: 16px;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     text-transform: capitalize;
     font-family: 'allerbold';
 }
@@ -2404,7 +2408,7 @@ textarea.form-control {
 }
 
 .artist-info li a:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .artist-detail h1 {
@@ -2498,7 +2502,7 @@ textarea.form-control {
 }
 
 .awards-timline h4 {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     margin-bottom: 0;
 }
 
@@ -2513,7 +2517,7 @@ textarea.form-control {
     right: 0;
     width: 4px;
     height: 365px;
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 .timeline-panel.timeline {
@@ -2527,7 +2531,7 @@ textarea.form-control {
     right: -51px;
     width: 16px;
     height: 16px;
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
     border-radius: 50%;    
 }
 
@@ -2554,7 +2558,7 @@ textarea.form-control {
 
 .showcase-section .section-title i {
     font-size: 72px;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .showcase-section .section-title a,
@@ -2574,7 +2578,7 @@ textarea.form-control {
 
 .showcase-section .section-title a:hover i,
 .showcase-section .section-title a:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .showcase {
@@ -2593,7 +2597,7 @@ textarea.form-control {
     top: -100%;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.6);
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 .showcase:hover .showcase-overlay {
@@ -2731,7 +2735,7 @@ textarea.form-control {
 .pagination li a {
     border: 0;
     font-size: 12px;/*was 18px*/
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     background-color: #fff;
     padding:10px 15px;
     padding-top: 6px;
@@ -2746,7 +2750,7 @@ textarea.form-control {
 .pagination>li>span:hover,
 .pagination>.active>a,
 .pagination>.active>a:hover {
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
     color: #fff;
 }
 
@@ -2772,7 +2776,7 @@ textarea.form-control {
 .bg-transparent .pagination li a:hover,
 .bg-transparent .pagination>li>a:focus,
 .bg-transparent .pagination>.active>a {
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 /* Sponsors */
@@ -2839,7 +2843,7 @@ textarea.form-control {
     padding-top: 90px;
     padding-bottom: 50px;    
     color: #fff;
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 .become-sponsors.before:before {
@@ -2853,12 +2857,12 @@ textarea.form-control {
 
 .become-sponsors .btn.btn-primary {
     background-color: #fff;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     margin-top: 35px;
 }
 
 .become-sponsors .btn.btn-primary i {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .become-sponsors .btn.btn-primary:hover {
@@ -2888,7 +2892,7 @@ textarea.form-control {
 }
 
 .home-banner.banner .banner-overlay {
-        background-color: rgba(237, 20, 91, 0.7);
+        background-color: rgba(221, 103, 6, 0.607);
 }
 
 .home-banner.banner .home-content h2 {
@@ -2925,15 +2929,15 @@ textarea.form-control {
 
 .home-banner.banner .btn.btn-primary {
     background-color: #fff;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .home-banner.banner .btn.btn-primary i {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .home-banner.banner .btn.btn-primary:hover {
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
     color: #fff;
 }
 
@@ -2977,7 +2981,7 @@ textarea.form-control {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 0, 83, 0.5);
+    background-color: rgba(221, 103, 6, 0.607);
     z-index: -1;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3082,11 +3086,11 @@ textarea.form-control {
 .ucoming-events .dropdown-menu>li>a:focus, 
 .ucoming-events .dropdown-menu>li>a:hover {
     background-color: transparent;
-    color: #ed145e;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .ucoming-events .dropdown i {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .ucoming-events .dropdown-menu {
@@ -3285,13 +3289,13 @@ textarea.form-control {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.7);
+    background-color: rgba(88, 50, 4, 0.677);
     z-index: -1;
 }
 
 #jplayer-container .jp-controls:hover:before,
 .audio-album .jp-controls:hover:before {
-    background-color: rgba(237, 20, 91, 0.9);
+    background-color: rgba(183, 73, 4, 0.7);
 }
 
 #jplayer-container .track-name {
@@ -3303,11 +3307,11 @@ textarea.form-control {
 }
 
 .featured-video .jp-play-bar {
-    background-color: #ed145b;  
+    background-color: rgba(221, 103, 6, 0.607);  
 }
 
 #jplayer-container .jp-current-time {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     line-height: 0;
     margin-top: 75px;
 }
@@ -3390,7 +3394,7 @@ textarea.form-control {
 } 
 
 .home-banner.band-banner .jp-play-bar {
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 
@@ -3419,7 +3423,7 @@ textarea.form-control {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.7);
+    background-color: rgba(221, 103, 6, 0.607);
     z-index: 1;    
 }
 
@@ -3473,7 +3477,7 @@ textarea.form-control {
 }
 
 .cbp-item h3 a:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .album-image:hover .album-overlay {
@@ -3503,7 +3507,7 @@ textarea.form-control {
 
 .albums-slider .owl-prev:hover,
 .albums-slider .owl-next:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 /* Shop Section was here */
@@ -3524,7 +3528,7 @@ textarea.form-control {
 }
 
 .festival-schedule.live-shows .festival-info:hover .image-overlay {
-    background-color: rgba(237, 20, 91, 0.7);
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 .festival-schedule.live-shows .time h1 {
@@ -3582,7 +3586,7 @@ textarea.form-control {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(237, 20, 91, 0.7);   
+    background-color: rgba(221, 103, 6, 0.607);   
 }
 
 .vocalist-image:hover .vocalist-overlya {
@@ -3688,7 +3692,7 @@ textarea.form-control {
 }
 
 .album-menu .dropdown-menu li:hover {
-    color: #ed145b;
+    color: #8d4b05;
 }
 
 .album-menu .dropdown-menu li+li {
@@ -3779,12 +3783,14 @@ textarea.form-control {
 .audio-album .add-buttons {
     margin-top: 35px;
 }
-
+/* Music window next to play button */
 .audio-album .jp-interface {
     background-color: #f4f4f4;
-    padding-bottom: 30px;
+    padding-bottom: 26px;
     position: relative;
     margin-bottom: 30px;
+    border-radius: 5px;
+    border: solid 2px rgb(0, 0, 0);
 }
 
 .audio-album #playing {
@@ -3834,7 +3840,7 @@ textarea.form-control {
 
 .audio-album .jp-current-time {
     padding-top: 60px;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     font-family: 'allerbold';
 }
 
@@ -3844,7 +3850,7 @@ textarea.form-control {
 }
 
 .audio-album .jp-playlist li {
-    border-bottom: 1px solid #e5e5e5;
+    /*border-bottom: 1px solid #e5e5e5;*/
     position: relative;
 }
 
@@ -3854,7 +3860,9 @@ textarea.form-control {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 25px;
-    font-size: 16px;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 5px;
 }
 
 .audio-album .jp-playlist li:last-child {
@@ -3876,7 +3884,7 @@ textarea.form-control {
 
 .audio-album .jp-playlist li.jp-playlist-current a,
 .audio-album .jp-playlist li a:hover {
-    color: #ed145b;
+    color: rgb(148, 76, 4);
 }
 
 .audio-album .info-wrapper .time:before {
@@ -3894,11 +3902,11 @@ textarea.form-control {
     position: absolute;
     content: "\f004";
     font-family: fontawesome;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .audio-album .jp-play-bar {
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607); /*Old Colour #ed145b */
 }
 
 /* Related Album */
@@ -3925,7 +3933,7 @@ textarea.form-control {
 .home-banner.biography .home-content h1 {
     font-size: 60px;
     font-family: 'Cookie', cursive;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .home-banner.biography .home-content h2 {
@@ -3935,7 +3943,7 @@ textarea.form-control {
 }
 
 .home-banner.biography .jp-play-bar {
-    background-color: #ed145b;
+    background-color: rgba(221, 103, 6, 0.607);
 }
 
 .about.about-biography .about-info h3 {
@@ -3984,7 +3992,7 @@ textarea.form-control {
 }
 
 .about.about-biography .social i:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 /* Biography Section */
@@ -4010,7 +4018,7 @@ textarea.form-control {
 }
 
 .biography-section .social a:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .biography-info {
@@ -4116,11 +4124,11 @@ textarea.form-control {
 
 .transparent-buttons .btn.btn-primary {
     background-color: #fff;
-    color: #ed145e;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 .transparent-buttons .btn.btn-primary:hover {
-    background-color: #ed145e;
+    background-color: rgba(221, 103, 6, 0.607);
     color: #fff;
 }
 
@@ -4170,7 +4178,7 @@ textarea.form-control {
 .tyopography-section .nav-tabs>li.active>a, 
 .tyopography-section .nav-tabs>li.active>a:focus, 
 .tyopography-section .nav-tabs>li.active>a:hover {
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
     background-color: #fff;
     border: 0;
     border-bottom-color: transparent;
@@ -4186,19 +4194,19 @@ textarea.form-control {
 }
 
 .tyopography-section .pagination-2 li a {
-    border: 1px solid #ed145b;
+    border: 1px solid rgba(221, 103, 6, 0.607);
 }
 
 .tyopography-section .pagination-3 li a {
-    border: 1px solid #ed145b;
-    background-color: #ed145b;
+    border: 1px solid rgba(221, 103, 6, 0.607);
+    background-color: rgba(221, 103, 6, 0.607);
     color: #fff;
 }
 
 .tyopography-section .pagination-3 li.active a,
 .tyopography-section .pagination-3 li a:hover {
     background-color: transparent;
-    color: #ed145b;
+    color: rgba(221, 103, 6, 0.607);
 }
 
 /* ==========================================================================
@@ -4283,7 +4291,7 @@ textarea.form-control {
 }
 
 .footer-widget a:hover {
-    color: rgb(183, 4, 238);/*was #000*/
+    color: rgba(221, 103, 6, 0.607);/*was #000*/
 }
 
 /* ==========================================================================
@@ -4302,7 +4310,7 @@ textarea.form-control {
 }
 
 .copyright a {
-    color: #ed145b;
+    color: #5c2b03;
     font-family: 'allerbold';
 }
 
@@ -4326,7 +4334,7 @@ textarea.form-control {
 }
 
 .footer-memu li a:hover {
-    color: #ed145b;
+    color: #944e04;
 }
 
 
