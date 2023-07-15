@@ -53,7 +53,7 @@ ul {
 }
 
 a:hover {
-	color: rgba(221, 103, 6, 0.607);
+	color: rgba(62, 246, 6, 0.565);
 }
 
 a, a:hover, a:active,
@@ -64,13 +64,14 @@ a:focus, button:focus, .btn:focus,
     box-shadow: none !important;
 }
 
+/* CONTACT US BUTTON */
 .btn.btn-primary {
     text-transform: uppercase;
     font-family: 'allerbold';
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
-    border-color: rgb(55, 36, 1);
-    background-color: rgba(122, 56, 2, 0.973);
+    border: solid 2px rgb(6, 243, 10);
+    background-color: rgb(98,76,143);
 	padding-top: 10px;
     padding-bottom: 15px;
     padding-left:35px;
@@ -79,7 +80,7 @@ a:focus, button:focus, .btn:focus,
 }
 
 .btn.btn-primary:hover {
-    background-color: transparent;/*was transparent*/
+    background-color: transparent;
     color: rgba(45, 221, 6, 0.972);
 }
 
@@ -98,7 +99,7 @@ a:focus, button:focus, .btn:focus,
 
 .btn.btn-primary:hover i {
 	right:20px;
-	color: rgba(221, 103, 6, 0.607);
+	color: rgba(62, 246, 6, 0.565);
 }
 
 .btn.btn-default {
@@ -113,11 +114,11 @@ a:focus, button:focus, .btn:focus,
 }
 
 .btn.btn-default:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(62, 246, 6, 0.565);
 }
 
 .btn.btn-default i {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.542);
 }
 
 .btn.btn-default:hover i {
@@ -147,13 +148,21 @@ a:focus, button:focus, .btn:focus,
     letter-spacing: 14px;
     color: #faf6f4;
     font-family: 'allerbold';
+    stroke-width: 2px;
+    -webkit-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+
 }
 
 .section-title h2,
 .page-title h2 {
     font-size: 40px; /* was 48px though it seems to make no difference */
-    color: #4f2303;
+    color: rgb(0, 0, 0);
     font-family: 'aller_displayregular';
+    stroke-width: 2px;
+    -webkit-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    
 }
 
 .page-title h1,
@@ -241,7 +250,7 @@ a:focus, button:focus, .btn:focus,
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(221, 103, 6, 0.453);
+    background-color: rgba(122, 19, 233, 0.424);
     z-index: -1;
 }
 
@@ -267,7 +276,7 @@ a:focus, button:focus, .btn:focus,
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.498);
 }
 
 /* ==========================================================================
@@ -322,7 +331,7 @@ a:focus, button:focus, .btn:focus,
     text-transform: uppercase;
     padding: 0 20px;
     line-height: 60px;
-    font-size: 14px;
+    font-size: 18px;
     display: block;
 	background-color: transparent;
 }
@@ -333,14 +342,14 @@ a:focus, button:focus, .btn:focus,
 #navigation .navbar-nav>.active>a, 
 #navigation .navbar-nav>.active>a:focus, 
 #navigation .navbar-nav>.active>a:hover {
-    color: rgba(122, 56, 2, 0.973);  
+    color: rgb(98,76,143);  
 }
 
 #navigation .navbar-nav li ul.sub-menu li a:hover, 
 #navigation .navbar-nav li ul.sub-menu li a:focus, 
 #navigation .navbar-nav li ul.sub-menu li a:active, 
 #navigation .navbar-nav li ul.sub-menu li.active>a {
-	color: rgba(122, 56, 2, 0.973); 
+	color: rgb(98,76,143); 
 }
 
 #navigation .btn.btn-primary {
@@ -364,7 +373,7 @@ ul.sub-menu {
   padding:7px 0;
   margin: 0;
   min-width: 180px;
-  border-top:1px solid rgba(221, 103, 6, 0.607);
+  border-top:1px solid rgba(98, 76, 143, 0.504);
   box-shadow: 0 3px 3px rgba(0,0,0,.1);
   -webkit-box-shadow: 0 3px 3px rgba(0,0,0,.1);  
   display: none;
@@ -563,7 +572,7 @@ ul.sub-menu {
 }
 
 .about-info ul li i {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.553);
     margin-right: 10px;
     font-size: 14px;
 }
@@ -621,7 +630,7 @@ ul.sub-menu {
 }
 
 .audio-list .controls:hover {
-   background-color: rgba(221, 103, 6, 0.607); 
+   background-color: rgb(62, 246, 6); 
 }
 
 .audio-list .controls i {
@@ -645,7 +654,7 @@ ul.sub-menu {
     margin-top: 20px;
     margin-bottom: 20px;
     overflow: hidden;
-    border: solid rgba(122, 56, 2, 0.973) 3px; /*was rgb(77, 32, 1)*/
+    border: solid rgb(0,0,0) 3px; /*was rgb(77, 32, 1)*/
     border-radius: 15px;
 }
 
@@ -664,7 +673,7 @@ ul.sub-menu {
     right: 0;
     width: 100%;
     height:100%;
-    background-color: rgba(147, 73, 4, 0.428);
+    background-color: #8a8a8a72;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
@@ -742,7 +751,7 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: #8a8a8a78;
     opacity: 0;
      -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -779,7 +788,7 @@ ul.sub-menu {
 }
 
 .video-content .video a:hover{
-	color:rgba(221, 103, 6, 0.607);
+	color:rgba(98, 76, 143, 0.458);
 }
 
 .gallery-section .section-title {
@@ -842,7 +851,7 @@ ul.sub-menu {
 .nav-tabs>li.active .image-overlay,
 .gallery-image:hover .image-overlay,
 .nav-tabs>li.active>a:focus .image-overlay {
-    background-color: rgba(221, 103, 6, 0.407);
+    background-color: #8a8a8a7e;
     opacity: 1;
 	-webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -897,7 +906,7 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: #8a8a8a77;
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -ms-transform: scale(0);
@@ -933,12 +942,12 @@ ul.sub-menu {
 }
 
 .festival-info h2 {
-    color: #000;
+    color: #8a8a8a;
     font-family: 'allerbold';
 }
 
 .festival-info:hover h2 {
-    color: rgba(221, 103, 6, 0.607);
+    color: #000;/* Richard Dawkins, Lawrence Krass etc */
 }
 
 .festival-info h5 {
@@ -989,7 +998,7 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.457);
     -webkit-transition: all 500ms;
     -moz-transition: all 500ms;
     -ms-transition: all 500ms;
@@ -1078,7 +1087,7 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.503);
 }
 
 .gallery-item:hover .gallery-overlay {
@@ -1155,7 +1164,7 @@ ul.sub-menu {
     margin-left: -60px;
     margin-top: -90px;
     color: #fff;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.52);
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -1210,14 +1219,14 @@ ul.sub-menu {
     color: rgb(59, 253, 2); /* was #000 */
 }
 
-
+/* Bottom section with musical notes */
 .promotion.contact .promotion-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(168, 80, 3, 0.61);
+    background-color: #0000008b;
     z-index: -1;
 }
 
@@ -1260,12 +1269,12 @@ ul.sub-menu {
 }
 
 .products:hover a {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.566);
 }
 
 .shop-section .products i,
 .products:hover i {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.537);
 }
 
 .products i {
@@ -1326,7 +1335,7 @@ ul.sub-menu {
 }
 
 .products-slider .owl-nav i:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.528);
 }
 
 .products-details h1 {
@@ -1504,7 +1513,7 @@ ul.sub-menu {
     padding-top: 10px;
     padding-bottom: 13px;  
     padding-left: 55px;
-    background-color: rgba(221, 103, 6, 0.607);  
+    background-color: rgba(98, 76, 143, 0.507);  
     color: #fff;
     border-radius: 4px;
     position: relative;
@@ -1532,7 +1541,7 @@ ul.sub-menu {
 
 .cart-button:hover {
     background-color: transparent;  
-    color:rgba(221, 103, 6, 0.607);   
+    color:rgba(98, 76, 143, 0.526);   
 }
 
 .products-details .share {
@@ -1554,7 +1563,7 @@ ul.sub-menu {
 
 .related-products h1 {
     font-size: 28px;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.532);
     text-transform: uppercase;
     font-family: 'aller_displayregular';
     margin-bottom: 45px;
@@ -1565,7 +1574,7 @@ ul.sub-menu {
 }
 
 .related-products .products:hover i {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.607);
 }
 
 /* Products Description */
@@ -1621,7 +1630,7 @@ ul.sub-menu {
 .products-description .nav-tabs>li>a:hover {
     border: 0;
     background-color: transparent;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.542);
 }
 
 .product-menu {
@@ -1829,7 +1838,7 @@ ul.sub-menu {
     width: 65px;
     height: 65px;
     text-align: center;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.6);
 }
 
 .post-content .time a {
@@ -1862,7 +1871,7 @@ ul.sub-menu {
 }
 
 .entry-title a:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.598);
 }
 
 .post-icons {
@@ -1877,7 +1886,7 @@ ul.sub-menu {
 }
 
 .post-icons:hover {
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.656);
 }
 
 .post-icons a {
@@ -1986,7 +1995,7 @@ ul.sub-menu {
 
 .media-inner .reply {
     font-size: 14px;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.569);
 }
 
 .post-comment {
@@ -2133,7 +2142,7 @@ textarea.form-control {
 }
 
 .contact-info li a:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.555);
 }
 
 .feedback.before-after:before, 
@@ -2148,11 +2157,11 @@ textarea.form-control {
 }
 
 /* Promotion */
-
+/* Musical Notes Bit at bottom */
 .promotion {
     text-align: center;
-    background-image: url(../images/bg/5.jpg);
-    background-color: #802b43;
+    /*background-image: url(../images/bg/5.jpg);*/
+    background-color: #00000074;/* #802b43 */
 }
 
 .promotion-content {
@@ -2176,12 +2185,12 @@ textarea.form-control {
 
 .promotion .btn.btn-primary {
     background-color: #fff;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.631);
     border-color: #fff;
 }
 
 .promotion .btn.btn-primary i {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.619);
 }
 
 .promotion .btn.btn-primary:hover {
@@ -2234,7 +2243,7 @@ textarea.form-control {
 }
 
 .twitter-feed a:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.561);
 }
 
 .feed-content.white-color a:hover {
@@ -2274,7 +2283,7 @@ textarea.form-control {
     width: 65px;
     height: 65px;
     text-align: center;
-    background-color: rgba(221, 103, 6, 0.607);    
+    background-color: rgba(98, 76, 143, 0.602));    
 }
 
 .contact-info .time h2 {
@@ -2305,7 +2314,7 @@ textarea.form-control {
 }
 
 .contact-info i {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.61);
     margin-right: 10px;
     font-size: 14px;    
 }
@@ -2322,7 +2331,7 @@ textarea.form-control {
 
 .schedule-section .section-title {
     margin-bottom: 45px;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgb(98,76,143);
     padding-top: 40px;
 }
 
@@ -2377,7 +2386,7 @@ textarea.form-control {
 
 .schedule-menu a {
     font-size: 16px;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.549);
     text-transform: capitalize;
     font-family: 'allerbold';
 }
@@ -2408,7 +2417,7 @@ textarea.form-control {
 }
 
 .artist-info li a:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.614);
 }
 
 .artist-detail h1 {
@@ -2502,7 +2511,7 @@ textarea.form-control {
 }
 
 .awards-timline h4 {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.581);
     margin-bottom: 0;
 }
 
@@ -2517,7 +2526,7 @@ textarea.form-control {
     right: 0;
     width: 4px;
     height: 365px;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.628);
 }
 
 .timeline-panel.timeline {
@@ -2531,7 +2540,7 @@ textarea.form-control {
     right: -51px;
     width: 16px;
     height: 16px;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.618);
     border-radius: 50%;    
 }
 
@@ -2558,7 +2567,7 @@ textarea.form-control {
 
 .showcase-section .section-title i {
     font-size: 72px;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgb(98,76,143);
 }
 
 .showcase-section .section-title a,
@@ -2578,7 +2587,7 @@ textarea.form-control {
 
 .showcase-section .section-title a:hover i,
 .showcase-section .section-title a:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.529);
 }
 
 .showcase {
@@ -2597,7 +2606,7 @@ textarea.form-control {
     top: -100%;
     width: 100%;
     height: 100%;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.534);
 }
 
 .showcase:hover .showcase-overlay {
@@ -2735,7 +2744,7 @@ textarea.form-control {
 .pagination li a {
     border: 0;
     font-size: 12px;/*was 18px*/
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.583);
     background-color: #fff;
     padding:10px 15px;
     padding-top: 6px;
@@ -2750,7 +2759,7 @@ textarea.form-control {
 .pagination>li>span:hover,
 .pagination>.active>a,
 .pagination>.active>a:hover {
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.523);
     color: #fff;
 }
 
@@ -2776,7 +2785,7 @@ textarea.form-control {
 .bg-transparent .pagination li a:hover,
 .bg-transparent .pagination>li>a:focus,
 .bg-transparent .pagination>.active>a {
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.578);
 }
 
 /* Sponsors */
@@ -2843,7 +2852,7 @@ textarea.form-control {
     padding-top: 90px;
     padding-bottom: 50px;    
     color: #fff;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.538);
 }
 
 .become-sponsors.before:before {
@@ -2857,12 +2866,12 @@ textarea.form-control {
 
 .become-sponsors .btn.btn-primary {
     background-color: #fff;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.569);
     margin-top: 35px;
 }
 
 .become-sponsors .btn.btn-primary i {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.585);
 }
 
 .become-sponsors .btn.btn-primary:hover {
@@ -2892,7 +2901,7 @@ textarea.form-control {
 }
 
 .home-banner.banner .banner-overlay {
-        background-color: rgba(221, 103, 6, 0.607);
+        background-color: rgba(98, 76, 143, 0.565);
 }
 
 .home-banner.banner .home-content h2 {
@@ -2929,15 +2938,15 @@ textarea.form-control {
 
 .home-banner.banner .btn.btn-primary {
     background-color: #fff;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.621);
 }
 
 .home-banner.banner .btn.btn-primary i {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.621);
 }
 
 .home-banner.banner .btn.btn-primary:hover {
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.564);
     color: #fff;
 }
 
@@ -2981,7 +2990,7 @@ textarea.form-control {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(122, 19, 233, 0.424);
     z-index: -1;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -3086,11 +3095,11 @@ textarea.form-control {
 .ucoming-events .dropdown-menu>li>a:focus, 
 .ucoming-events .dropdown-menu>li>a:hover {
     background-color: transparent;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.655);
 }
 
 .ucoming-events .dropdown i {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.592);
 }
 
 .ucoming-events .dropdown-menu {
@@ -3177,7 +3186,7 @@ textarea.form-control {
     bottom: 0;
     width: 80px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);    
+    background-color: rgba(0, 0, 0, 0.3);  
 }
 
 .video-gallery.bg-transparent:before {
@@ -3289,13 +3298,13 @@ textarea.form-control {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(88, 50, 4, 0.677);
+    background-color: rgba(0, 0, 0, 0.677);
     z-index: -1;
 }
 
 #jplayer-container .jp-controls:hover:before,
 .audio-album .jp-controls:hover:before {
-    background-color: rgba(183, 73, 4, 0.7);
+    background-color: rgba(46, 48, 49, 0.601);
 }
 
 #jplayer-container .track-name {
@@ -3307,11 +3316,11 @@ textarea.form-control {
 }
 
 .featured-video .jp-play-bar {
-    background-color: rgba(221, 103, 6, 0.607);  
+    background-color: rgba(98, 76, 143, 0.595);  
 }
 
 #jplayer-container .jp-current-time {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.59);
     line-height: 0;
     margin-top: 75px;
 }
@@ -3394,7 +3403,7 @@ textarea.form-control {
 } 
 
 .home-banner.band-banner .jp-play-bar {
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.559);
 }
 
 
@@ -3423,7 +3432,7 @@ textarea.form-control {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.568);
     z-index: 1;    
 }
 
@@ -3477,7 +3486,7 @@ textarea.form-control {
 }
 
 .cbp-item h3 a:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.554);
 }
 
 .album-image:hover .album-overlay {
@@ -3507,7 +3516,7 @@ textarea.form-control {
 
 .albums-slider .owl-prev:hover,
 .albums-slider .owl-next:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgb(98,76,143);
 }
 
 /* Shop Section was here */
@@ -3519,7 +3528,7 @@ textarea.form-control {
 }
 
 .festival-schedule.live-shows .image-overlay {
-    background-color: rgba(184, 187, 189, 0.5);
+    background-color: #8a8a8a7a;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
@@ -3528,7 +3537,7 @@ textarea.form-control {
 }
 
 .festival-schedule.live-shows .festival-info:hover .image-overlay {
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: #8a8a8a88;
 }
 
 .festival-schedule.live-shows .time h1 {
@@ -3586,7 +3595,7 @@ textarea.form-control {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(221, 103, 6, 0.607);   
+    background-color: rgba(98, 76, 143, 0.582);   
 }
 
 .vocalist-image:hover .vocalist-overlya {
@@ -3692,7 +3701,7 @@ textarea.form-control {
 }
 
 .album-menu .dropdown-menu li:hover {
-    color: #8d4b05;
+    color: rgb(98,76,143);
 }
 
 .album-menu .dropdown-menu li+li {
@@ -3840,7 +3849,7 @@ textarea.form-control {
 
 .audio-album .jp-current-time {
     padding-top: 60px;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgb(98,76,143);
     font-family: 'allerbold';
 }
 
@@ -3884,7 +3893,7 @@ textarea.form-control {
 
 .audio-album .jp-playlist li.jp-playlist-current a,
 .audio-album .jp-playlist li a:hover {
-    color: rgb(148, 76, 4);
+    color: #716f6fc4; /* song name hover colour */
 }
 
 .audio-album .info-wrapper .time:before {
@@ -3902,11 +3911,11 @@ textarea.form-control {
     position: absolute;
     content: "\f004";
     font-family: fontawesome;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgb(98,76,143);
 }
 
 .audio-album .jp-play-bar {
-    background-color: rgba(221, 103, 6, 0.607); /*Old Colour #ed145b */
+    background-color: rgb(98,76,143); /*Old Colour #ed145b */
 }
 
 /* Related Album */
@@ -3933,7 +3942,7 @@ textarea.form-control {
 .home-banner.biography .home-content h1 {
     font-size: 60px;
     font-family: 'Cookie', cursive;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgb(98,76,143);
 }
 
 .home-banner.biography .home-content h2 {
@@ -3943,7 +3952,7 @@ textarea.form-control {
 }
 
 .home-banner.biography .jp-play-bar {
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgb(98,76,143);
 }
 
 .about.about-biography .about-info h3 {
@@ -3992,7 +4001,7 @@ textarea.form-control {
 }
 
 .about.about-biography .social i:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.602);
 }
 
 /* Biography Section */
@@ -4018,7 +4027,7 @@ textarea.form-control {
 }
 
 .biography-section .social a:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.592);
 }
 
 .biography-info {
@@ -4124,11 +4133,11 @@ textarea.form-control {
 
 .transparent-buttons .btn.btn-primary {
     background-color: #fff;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgb(98,76,143);
 }
 
 .transparent-buttons .btn.btn-primary:hover {
-    background-color: rgba(221, 103, 6, 0.607);
+    background-color: rgba(98, 76, 143, 0.579);
     color: #fff;
 }
 
@@ -4178,7 +4187,7 @@ textarea.form-control {
 .tyopography-section .nav-tabs>li.active>a, 
 .tyopography-section .nav-tabs>li.active>a:focus, 
 .tyopography-section .nav-tabs>li.active>a:hover {
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.605);
     background-color: #fff;
     border: 0;
     border-bottom-color: transparent;
@@ -4198,15 +4207,15 @@ textarea.form-control {
 }
 
 .tyopography-section .pagination-3 li a {
-    border: 1px solid rgba(221, 103, 6, 0.607);
-    background-color: rgba(221, 103, 6, 0.607);
+    border: 1px solid rgb(98,76,143);
+    background-color: rgb(98,76,143);
     color: #fff;
 }
 
 .tyopography-section .pagination-3 li.active a,
 .tyopography-section .pagination-3 li a:hover {
     background-color: transparent;
-    color: rgba(221, 103, 6, 0.607);
+    color: rgba(98, 76, 143, 0.525);
 }
 
 /* ==========================================================================
@@ -4291,7 +4300,7 @@ textarea.form-control {
 }
 
 .footer-widget a:hover {
-    color: rgba(221, 103, 6, 0.607);/*was #000*/
+    color: rgba(98, 76, 143, 0.587);/*was #000*/
 }
 
 /* ==========================================================================
@@ -4310,7 +4319,7 @@ textarea.form-control {
 }
 
 .copyright a {
-    color: #5c2b03;
+    color: rgb(98,76,143);
     font-family: 'allerbold';
 }
 
@@ -4334,7 +4343,7 @@ textarea.form-control {
 }
 
 .footer-memu li a:hover {
-    color: #944e04;
+    color: rgba(98, 76, 143, 0.636);
 }
 
 

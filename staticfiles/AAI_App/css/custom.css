@@ -159,7 +159,7 @@
 
     .mystyle {
         font-family: 'allerregular', sans-serif;
-        color: #2e1601;
+        color: rgb(0, 0, 0);
         /*opacity:0.5;*/
         font-weight:600;
         font-size:25px;
@@ -167,7 +167,7 @@
         letter-spacing:auto;
         padding-top: 20px;
         padding-bottom: 20px;
-        border: 2px solid rgb(54, 21, 0);
+        border: 3px solid rgb(0,0,0);
         border-radius: 15px;
         background-color: rgba(245, 243, 240, 0.674);
     }
